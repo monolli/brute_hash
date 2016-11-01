@@ -15,6 +15,7 @@ AED II - Bechmark of hashing algorithms
 
 #define start = 32; //32 == space ASCII
 #define end = 126; //126 == ~ ASCII
+#define max_size = 8 //max size of the password
 
 using namespace std;
 
@@ -27,6 +28,13 @@ void load_hash(string name, vector<string>& l_hash){
 
   while(getline(input,line)){     //recieve the line
     l_hash.push_back(line);       //store the hash
+  }
+}
+
+void gen_string(int start, int end){
+  char try1[max_size];
+  for(int i = start; i <= end; i++){
+    try1[]
   }
 }
 
