@@ -1,0 +1,3 @@
+bugs:
+
+so funciona se as senhas estiverem em ordem crescente ??????
